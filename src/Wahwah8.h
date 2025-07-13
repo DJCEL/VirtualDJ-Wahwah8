@@ -6,13 +6,14 @@
 #include "VdjDsp8.h"
 
 #if (defined(VDJ_WIN))
-#include "resource.h"
-#pragma comment(lib, "User32.lib")
+	#include "resource.h"
+	#pragma comment(lib, "User32.lib")
 #elif (defined(VDJ_MAC))
-#include <string>
-#include <fstream>
-#define sprintf_s snprintf
+	#include <string>
+	#include <fstream>
+	#define sprintf_s snprintf
 #endif
+
 #include <stdio.h>
 #define _USE_MATH_DEFINES
 #include <math.h>
@@ -120,7 +121,7 @@ private:
 	// Public filter parameters 
 	float m_Dry,m_Wet;
 	float Delay;      // LFO Delay
-    float depth;      // Wah depth 
+    	float depth;      // Wah depth 
 	float freqofs;    // Wah frequency offset
 	float Q;          // Resonance
 	float phase;      // Phase between left and right channel (for 3D sound)
