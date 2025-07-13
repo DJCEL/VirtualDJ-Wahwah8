@@ -67,41 +67,20 @@ IDR_SKINPNG             GUI                     "FX_GUI.png"
 
 IDR_SKINXML             GUI                     "FX_GUI.xml"
 
-#endif    // Neutre resources
+#endif    // Anglais (États-Unis) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
-/////////////////////////////////////////////////////////////////////////////
-// Français (France) resources
 
-#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
-LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
-#pragma code_page(1252)
 
-#ifdef APSTUDIO_INVOKED
+#ifndef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
 //
-// TEXTINCLUDE
+// Generated from the TEXTINCLUDE 3 resource.
 //
 
-1 TEXTINCLUDE 
-BEGIN
-    "resource.h\0"
-END
 
-3 TEXTINCLUDE 
-BEGIN
-    "\0"
-END
-
-2 TEXTINCLUDE 
-BEGIN
-    "#include ""winres.h""\r\0"
-END
-
-#endif    // APSTUDIO_INVOKED
-
-#endif    // Français (France) resources
 /////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
 
 
