@@ -7,7 +7,6 @@
 
 #if (defined(VDJ_WIN))
 	#include "resource.h"
-	#pragma comment(lib, "User32.lib")
 #elif (defined(VDJ_MAC))
 	#include <string>
 	#include <fstream>
