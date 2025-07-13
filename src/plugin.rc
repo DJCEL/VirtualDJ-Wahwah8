@@ -25,7 +25,7 @@ LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 3,0,0,0
+ FILEVERSION 4,0,0,0
  PRODUCTVERSION 8,0,0,0
  FILEFLAGSMASK 0x17L
 #ifdef _DEBUG
@@ -44,7 +44,7 @@ BEGIN
             VALUE "Comments", "http://www.virtualdj.com/blog/djcel"
             VALUE "CompanyName", "DJ CEL"
             VALUE "FileDescription", "VirtualDJ Sound Effect"
-            VALUE "FileVersion", "3, 0, 0, 0"
+            VALUE "FileVersion", "4, 0, 0, 0"
             VALUE "InternalName", "Wahwah8"
             VALUE "LegalCopyright", "Copyright (C) 2017-2025 DJ CEL"
             VALUE "OriginalFilename", "Wahwah8"
@@ -73,7 +73,7 @@ IDR_SKINXML             GUI                     "FX_GUI.xml"
 
 
 /////////////////////////////////////////////////////////////////////////////
-// Français (France) resources
+// FranÃ§ais (France) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FRA)
 LANGUAGE LANG_FRENCH, SUBLANG_FRENCH
@@ -102,7 +102,7 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
-#endif    // Français (France) resources
+#endif    // FranÃ§ais (France) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
