@@ -401,7 +401,7 @@ void CWahwah8::ComputeFilterCoeff(FILTER type,int chan, float x)
 
 		switch(type)
 		{
-		case FILTER::LPF: // Low pass filter: H(s) = 1 / (s^2 + s/Q + 1)
+			case FILTER::LPF: // Low pass filter: H(s) = 1 / (s^2 + s/Q + 1)
 				b[0] = (1.0f - cs) / 2.0f;
 				b[1] = (1.0f - cs);
 				b[2] = (1.0f - cs) / 2.0f;
