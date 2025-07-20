@@ -259,7 +259,7 @@ HRESULT VDJ_API CWahwah8::OnProcessSamples(float *buffer,int nb)
 
 		for(int ch=0;ch<NB_CHAN;ch++) // 0: left channel, 1:right channel
 		{
-			in[ch] = buffer[2*i+ch];  // interleaved stereo samples (ie left_1, right_1, left_2, right_2, ... , left_nb, right_nb)
+			in[ch] = buffer[2*i+ch];  // interleaved stereo samples (ie left_0, right_0, left_1, right_1, ... , left_nb-1, right_nb-1)
 			
 			ComputeFilterCoeff(FILTER::LPF, ch, xBeat);
 			
