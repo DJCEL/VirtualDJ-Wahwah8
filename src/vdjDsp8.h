@@ -30,7 +30,7 @@ public:
 
 	// This function will be called each time VirtualDJ needs your plugin
 	// to be applied on a new sound buffer
-	// NOTE: samples are stereo, so you need to process up to buffer[2*nb]
+	// NOTE: samples are stereo (interleaved), so you need to process up to buffer[2*nb]
 	virtual HRESULT VDJ_API OnProcessSamples(float *buffer, int nb)=0;
 
 	// Some useful variables
@@ -74,7 +74,7 @@ public:
 
 	// This function will be called each time VirtualDJ needs your plugin
 	// to be applied on a new sound buffer
-	// NOTE: samples are stereo, so you need to process up to buffer[2*nb]
+	// NOTE: samples are stereo (interleaved), so you need to process up to buffer[2*nb]
 	virtual short * VDJ_API OnGetSongBuffer(int songPos, int nb)=0;
 
 	// Call this to get the buffer at the specified position
