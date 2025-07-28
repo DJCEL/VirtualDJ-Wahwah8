@@ -76,7 +76,7 @@
       </DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <OutputFile>$(LOCALAPPDATA)\VirtualDJ\Plugins64\SoundEffect\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(LOCALAPPDATA)\VirtualDJ\Plugins64\SoundEffect\Dev\$(TargetName)$(TargetExt)</OutputFile>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(OutDir)$(TargetName).pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
@@ -101,7 +101,7 @@
       </DisableSpecificWarnings>
     </ClCompile>
     <Link>
-      <OutputFile>$(LOCALAPPDATA)\VirtualDJ\Plugins64\SoundEffect\$(TargetName)$(TargetExt)</OutputFile>
+      <OutputFile>$(LOCALAPPDATA)\VirtualDJ\Plugins64\SoundEffect\Dev\$(TargetName)$(TargetExt)</OutputFile>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
