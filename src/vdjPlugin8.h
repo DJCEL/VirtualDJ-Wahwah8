@@ -123,12 +123,13 @@ struct TVdjPluginInfo8_Extension1
 #define VDJPARAM_CUSTOM	4
 #define VDJPARAM_RADIO	5
 #define VDJPARAM_COMMAND 6
-#define VDJPARAM_COLORFX 7 //similar to slider, but with default position at 0.5 and only one per effect for single-knob full control
+#define VDJPARAM_COLORFX 7 //similar to slider, but with default position at 0.5 and only one per effect for single-knob full control. Use filter_selectcolorfx "myeffect"
 #define VDJPARAM_BEATS 8 //float specifying number of beats
 #define VDJPARAM_BEATS_RELATIVE 9 //int, set to +1, -1 etc to move the number of beats higher or lower when OnParameter is called
 #define VDJPARAM_POSITION 10 //used for video plugins to allow resizing/positioning by the user in the plugin's GUI
 #define VDJPARAM_RELEASEFX 11
-#define VDJPARAM_TRANSITIONFX 12
+#define VDJPARAM_TRANSITIONFX 12 // MixFX are similar to Color Fx, so a custom one will currently not show up in the list yet, and you'd have to select it by name yourself. 
+                                 // The transition effect is applied to both decks. It will move from 1 to 0 on the deck mixing from, and from 0 to 1 on the deck mixing to
 
 #define VDJFLAG_NODOCK 0x1
 #define VDJFLAG_PROCESSAFTERSTOP 0x2 //when this flag is set, OnProcessSamples or OnDraw are called after plugin is stopped. Plugin should return E_FAIL as soon as possible to stop processing.
@@ -243,3 +244,4 @@ extern "C" {
 //////////////////////////////////////////////////////////////////////////
 
 #endif
+
