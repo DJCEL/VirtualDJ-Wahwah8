@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */	
-                01AB35B42438B6D90007DD4D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AB35B32438B6D90007DD4D /* CoreFoundation.framework */; };
+        01AB35B42438B6D90007DD4D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AB35B32438B6D90007DD4D /* CoreFoundation.framework */; };
 		01CE6D02243885E50008A505 /* FX_GUI.xml in Resources */ = {isa = PBXBuildFile; fileRef = 01CE6D01243885E50008A505 /* FX_GUI.xml */; };
 		01CE6D052438862D0008A505 /* FX_GUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 01CE6D042438862D0008A505 /* FX_GUI.png */; };
 		01E00BDC24387FCF00FCA8C5 /* Wahwah8.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E00BDB24387FCF00FCA8C5 /* Wahwah8.cpp */; };
@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-                01AB35B32438B6D90007DD4D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<group>"; };
+        01AB35B32438B6D90007DD4D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<group>"; };
 		01CE6D01243885E50008A505 /* FX_GUI.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FX_GUI.xml; sourceTree = "<group>"; };
 		01CE6D042438862D0008A505 /* FX_GUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FX_GUI.png; sourceTree = "<group>"; };
 		01E00BD024387F8300FCA8C5 /* Wahwah8.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wahwah8.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -334,4 +334,5 @@
 /* End XCConfigurationList section */
 	};
 	rootObject = 01E00BC824387F8300FCA8C5 /* Project object */;
+
 }
