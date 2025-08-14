@@ -16,15 +16,15 @@
 
 /* Begin PBXFileReference section */
         01AB35B32438B6D90007DD4D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<group>"; };
-		01CE6D01243885E50008A505 /* FX_GUI.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FX_GUI.xml; sourceTree = "<group>"; };
-		01CE6D042438862D0008A505 /* FX_GUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FX_GUI.png; sourceTree = "<group>"; };
+		01CE6D01243885E50008A505 /* FX_GUI.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ../src/FX_GUI.xml; sourceTree = "<group>"; };
+		01CE6D042438862D0008A505 /* FX_GUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ../src/FX_GUI.png; sourceTree = "<group>"; };
 		01E00BD024387F8300FCA8C5 /* Wahwah8.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Wahwah8.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E00BD324387F8300FCA8C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		01E00BDA24387FB200FCA8C5 /* Wahwah8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Wahwah8.h; sourceTree = "<group>"; };
-		01E00BDB24387FCF00FCA8C5 /* Wahwah8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Wahwah8.cpp; sourceTree = "<group>"; };
-		01E00BDD24387FE300FCA8C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		01E00BDF2438802200FCA8C5 /* vdjPlugin8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vdjPlugin8.h; sourceTree = "<group>"; };
-		01E00BE12438812B00FCA8C5 /* vdjDsp8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vdjDsp8.h; sourceTree = "<group>"; };
+		01E00BDA24387FB200FCA8C5 /* Wahwah8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../src/Wahwah8.h; sourceTree = "<group>"; };
+		01E00BDB24387FCF00FCA8C5 /* Wahwah8.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ../src/Wahwah8.cpp; sourceTree = "<group>"; };
+		01E00BDD24387FE300FCA8C5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ../src/main.cpp; sourceTree = "<group>"; };
+		01E00BDF2438802200FCA8C5 /* vdjPlugin8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../src/vdjPlugin8.h; sourceTree = "<group>"; };
+		01E00BE12438812B00FCA8C5 /* vdjDsp8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ../src/vdjDsp8.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -338,4 +338,5 @@
 	rootObject = 01E00BC824387F8300FCA8C5 /* Project object */;
 
 }
+
 
