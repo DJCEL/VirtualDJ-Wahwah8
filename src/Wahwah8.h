@@ -1,11 +1,10 @@
 #ifndef WAHWAH8_H
 #define WAHWAH8_H
 
-#define _CRT_SECURE_NO_WARNINGS
-
 #include "VdjDsp8.h"
 
 #if (defined(VDJ_WIN))
+    #define _CRT_SECURE_NO_WARNINGS
 	#include "resource.h"
 #elif (defined(VDJ_MAC))
 	#include <string>
@@ -134,3 +133,4 @@ private:
 };
 
 #endif /* WAHWAH8_H */
+
