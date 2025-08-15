@@ -305,7 +305,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = Wahwah8/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
-				PRODUCT_BUNDLE_IDENTIFIER = virtualdj.Wahwah8;
+				PRODUCT_BCLANG_WARN_OBJC_IMPcom.djcel.virtualdjplugins.Wahwah8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
@@ -338,5 +338,6 @@
 	rootObject = 01E00BC824387F8300FCA8C5 /* Project object */;
 
 }
+
 
 
