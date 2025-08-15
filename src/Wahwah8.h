@@ -4,6 +4,9 @@
 #include "VdjDsp8.h"
 
 #if (defined(VDJ_WIN))
+	#if (defined(_M_X64) || defined(__amd64__))
+		#define VDJ_WIN64
+	#endif
     #define _CRT_SECURE_NO_WARNINGS
 	#include "resource.h"
 #elif (defined(VDJ_MAC))
@@ -133,4 +136,5 @@ private:
 };
 
 #endif /* WAHWAH8_H */
+
 
