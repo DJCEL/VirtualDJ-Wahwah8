@@ -41,7 +41,7 @@ HRESULT VDJ_API CWahwah8::OnGetPluginInfo(TVdjPluginInfo8 *infos)
 #elif (defined(VDJ_WIN64))
 	infos->Version = "4.0 (Win64)";
 #elif (defined(VDJ_MAC))
-	infos->Version = "4.0 (macos)";
+	infos->Version = "4.0 (macOS)";
 #endif
 	
 	return S_OK;
@@ -471,5 +471,6 @@ float CWahwah8::Center_Frequency(float freq)
 	
 	return f0;
 }
+
 
 
